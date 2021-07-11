@@ -39,6 +39,7 @@ export const colors = Object.keys(colorsMap);
 export const displays = ["initial", "block", "inline", "inline-block"];
 export const aligns = ["left", "right", "center"];
 
+// Rootをpタグのコンポーネントとして定義
 const Root = styled.p`
   margin: 0;
   color: ${({ color }) => colorsMap[color]};
@@ -49,13 +50,13 @@ const Root = styled.p`
 `;
 
 const Typography = ({
-  className,
-  size,
-  color,
-  display,
-  align,
-  bold,
-  children,
+  className, //クラス名
+  size, //テキストのサイズ
+  color, //テキストの色
+  display, //テキストの配置
+  align, //テキストの表示方向
+  bold, //テキストを太字にするかどうか
+  children, //表示する要素
 }) => (
   // 各プロパティをStyled componentで作成したRootに渡す
   <Root
