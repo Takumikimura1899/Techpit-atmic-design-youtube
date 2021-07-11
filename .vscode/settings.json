@@ -1,3 +1,4 @@
 {
-  "cSpell.words": ["corejs"]
+  "cSpell.words": ["corejs"],
+  "emmet.triggerExpansionOnTab": true
 }

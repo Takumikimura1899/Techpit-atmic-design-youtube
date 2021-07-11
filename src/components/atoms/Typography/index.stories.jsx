@@ -1,5 +1,4 @@
 import React from 'react';
-import { size } from 'store2';
 import Typography, { colors, sizes, aligns } from '.';
 
 export default { title: 'atoms/Typography' };
