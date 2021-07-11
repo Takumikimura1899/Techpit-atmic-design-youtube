@@ -1,7 +1,6 @@
 import React from 'react';
 import { actions } from '@storybook/addon-actions';
 import Button, { sizes } from '.';
-import { divide } from 'lodash';
 
 export default { title: 'atoms/Button' };
 
