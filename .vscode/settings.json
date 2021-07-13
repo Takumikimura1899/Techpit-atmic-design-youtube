@@ -1,4 +1,5 @@
 {
   "cSpell.words": ["Youtube", "corejs", "youtubeviewer"],
-  "emmet.triggerExpansionOnTab": true
+  "emmet.triggerExpansionOnTab": true,
+  "emmet.showSuggestionsAsSnippets": true
 }
